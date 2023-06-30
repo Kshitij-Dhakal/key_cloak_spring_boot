@@ -16,7 +16,7 @@
 ## Run Server
 
 ```shell
-export PORT=8080
+export PORT=8081
 export KEY_CLOAK_BASE_URL=http://localhost:8080
 ./gradlew bootRun
 ```
