@@ -2,6 +2,7 @@
 version: '3'
 services:
   keycloak:
+    container_name: keycloak
     image: quay.io/keycloak/keycloak
     environment:
       - KEYCLOAK_ADMIN=root
